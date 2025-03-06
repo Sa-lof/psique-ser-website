@@ -38,13 +38,13 @@ const Navbar = () => {
     const navLinks = [
         { title: "Inicio", path: "/" },
         { title: "Nosotros", path: "/nosotros" },
+        { title: "Servicios", path: "/servicios" },
+        { title: "Red Clínica", path: "/red-clinica" },
         { title: "Blog", path: "/blog" },
         { title: "Campañas", path: "/campanas" },
-        { title: "Contacto", path: "/contacto" },
         { title: "Espacio Psicoeducativo", path: "/espacio-psicoeducativo" },
-        { title: "Red Clínica", path: "/red-clinica" },
-        { title: "Servicios", path: "/servicios" },
         { title: "Tienda", path: "/tienda" },
+        { title: "Contacto", path: "/contacto" },
     ];
 
     // Detect scroll to handle navbar background
