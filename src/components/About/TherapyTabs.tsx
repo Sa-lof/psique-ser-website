@@ -25,7 +25,7 @@ interface TherapyTabData {
 const therapyTabs: TherapyTabData[] = [
     {
         label: "Terapia Niños",
-        image: "/images/therapy-kids.png",
+        image: "/About/therapy-kids.jpg",
         title: "Terapia Niños",
         description:
             "Abordado desde la terapia cognitivo conductual, terapia de juego y retroalimentación con padres o tutores.",
@@ -38,7 +38,7 @@ const therapyTabs: TherapyTabData[] = [
     },
     {
         label: "Terapia Adolescentes",
-        image: "/images/therapy-teens.png",
+        image: "/About/therapy-teens.jpg",
         title: "Terapia Adolescentes",
         description:
             "Proceso de acompañamiento que aborda cambios emocionales, sociales y académicos propios de la etapa adolescente.",
@@ -51,7 +51,7 @@ const therapyTabs: TherapyTabData[] = [
     },
     {
         label: "Terapia Adultos",
-        image: "/images/therapy-adults.png",
+        image: "/About/therapy-adults.jpg",
         title: "Terapia Adultos",
         description:
             "Espacio de autoconocimiento y acompañamiento ante desafíos laborales, personales y relacionales.",

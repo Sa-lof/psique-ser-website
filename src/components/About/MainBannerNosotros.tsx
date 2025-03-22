@@ -40,7 +40,7 @@ const MainBannerNosotros: React.FC = () => {
                     <Grid item xs={12} md={5}>
                         <Box sx={{ textAlign: "center" }}>
                             <Image
-                                src="/images/nosotros-illustration.png"
+                                src="/About/nosotros-illustration.jpg"
                                 alt="Ilustración Psique & Ser"
                                 width={300}
                                 height={300}

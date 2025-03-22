@@ -31,25 +31,25 @@ const testimoniesData: Testimony[] = [
         name: "Juan Pérez",
         role: "Cliente Satisfecho",
         text: "La atención fue excelente y me sentí acompañado en todo momento. ¡Recomendado!",
-        image: "/people/person-1.jpg",
+        image: "/Home/person-1.png",
     },
     {
         name: "María López",
         role: "Paciente",
         text: "Encontré la ayuda que necesitaba para superar mis desafíos emocionales.",
-        image: "/people/person-2.jpg",
+        image: "/Home/person-2.png",
     },
     {
         name: "Carlos Ramírez",
         role: "Paciente",
         text: "Los profesionales son muy dedicados y se nota su vocación por el bienestar.",
-        image: "/people/person-3.jpg",
+        image: "/Home/person-1.png",
     },
     {
         name: "Laura Gómez",
         role: "Paciente",
         text: "Me siento mucho mejor y agradezco el apoyo que me brindaron en todo momento.",
-        image: "/people/person-3.jpg",
+        image: "/Home/person-4.png",
     },
 ];
 
