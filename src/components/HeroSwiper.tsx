@@ -39,19 +39,19 @@ const defaultSlides: SlideData[] = [
         label: "Evaluaciones",
         title: "Trabajamos constantemente por ti",
         description: "Nuestro equipo de profesionales está comprometido con tu bienestar",
-        image: "/hero-1.jpg",
+        image: "Home/hero-1.jpg",
     },
     {
         label: "Asesorías",
         title: "Encuentra el apoyo que necesitas",
         description: "Estamos aquí para ayudarte a superar tus desafíos",
-        image: "/hero-2.jpg",
+        image: "Home/hero-2.jpg",
     },
     {
         label: "Contención",
         title: "Nunca estarás solo en tu proceso",
         description: "Estamos aquí para apoyarte en cada paso que des",
-        image: "/hero-3.jpg",
+        image: "Home/hero-3.jpg",
     },
 ];
 

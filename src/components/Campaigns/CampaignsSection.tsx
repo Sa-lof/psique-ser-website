@@ -11,9 +11,11 @@ const campaigns = [
         description:
             "Dogminiquee es una fundación dedicada a la protección y rescate de perros en situación de calle. A través de esta campaña, recolectamos alimento, medicinas y donaciones para apoyar su labor.",
         images: [
-            "/images/campaigns/dogminiquee-1.jpg",
-            "/images/campaigns/dogminiquee-2.jpg",
-            "/images/campaigns/dogminiquee-3.jpg",
+            "/Campanas/dogminiquee-1.jpeg",
+            "/Campanas/dogminiquee-2.jpeg",
+            "/Campanas/dogminiquee-3.jpeg",
+            "/Campanas/dogminiquee-4.jpeg",
+            "/Campanas/dogminiquee-5.jpeg",
         ],
     },
     {
@@ -21,9 +23,12 @@ const campaigns = [
         description:
             "Funfai brinda asistencia a familias de escasos recursos, fomentando la educación y la nutrición infantil. En nuestra segunda campaña colaboramos para donar víveres, ropa y juguetes.",
         images: [
-            "/images/campaigns/funfai-1.jpg",
-            "/images/campaigns/funfai-2.jpg",
-            "/images/campaigns/funfai-3.jpg",
+            "/Campanas/funfai-1.jpeg",
+            "/Campanas/funfai-2.png",
+            "/Campanas/funfai-3.png",
+            "/Campanas/funfai-4.jpeg",
+            "/Campanas/funfai-5.jpeg",
+            "/Campanas/funfai-6.jpeg",
         ],
     },
 ];

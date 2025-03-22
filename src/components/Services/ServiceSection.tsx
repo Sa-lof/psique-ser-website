@@ -16,18 +16,18 @@ const serviceData: ServiceItem[] = [
         title: "Terapia",
         description:
             "Contamos con especialistas en terapia cognitivo conductual, humanismo y psicoanálisis.",
-        image: "/therapy.jpg",
+        image: "Home/therapy.jpg",
     },
     {
         title: "Evaluaciones",
         description:
             "Evaluaciones psicodiagnósticas, psicológicas y perfil vocacional.",
-        image: "/evaluations.jpg",
+        image: "Home/evaluations.jpg",
     },
     {
         title: "Conferencias y Cursos",
         description: "Temas relacionados a la salud mental.",
-        image: "/conferences.jpg",
+        image: "Home/conferences.jpg",
     },
 ];
 
