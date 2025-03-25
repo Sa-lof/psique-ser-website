@@ -48,14 +48,15 @@ const FounderSection: React.FC = () => {
                     <Grid item xs={12} md={5}>
                         <Box
                             ref={imgRef}
-                            sx={{ width: "100%", borderRadius: 2, overflow: "hidden" }}
+                            sx={{ width: "100%", borderRadius: 2, overflow: "hidden"}}
                         >
                             <Image
                                 src="/founder.jpg"
                                 alt="Founder"
                                 width={600}
                                 height={400}
-                                style={{ objectFit: "cover" }}
+                                style={{ objectFit: "contain"}}
+                                
                             />
                         </Box>
                     </Grid>

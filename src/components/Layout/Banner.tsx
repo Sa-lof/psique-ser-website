@@ -25,31 +25,42 @@ const Banner: React.FC<BannerProps> = ({ backgroundImage, title, description }) 
 
     return (
         <Box
-            ref={ref}
-            component={motion.div}
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"}
-            variants={bannerVariants}
-            sx={{
-                height: "100vh",
-                backgroundImage: `url(${backgroundImage})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                display: "flex",
-                alignItems: "center",
-                textAlign: "center",
-                position: "relative",
-            }}
-        >
-            <Container sx={{ position: "relative", zIndex: 1 }}>
-                <Typography variant="h3" sx={{ mb: 2 }}>
-                    {title}
-                </Typography>
-                <Typography variant="body1">
-                    {description}
-                </Typography>
-            </Container>
-        </Box>
+  ref={ref}
+  component={motion.div}
+  initial="hidden"
+  animate={inView ? "visible" : "hidden"}
+  variants={bannerVariants}
+  sx={{
+    height: "100vh",
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    display: "flex",
+    alignItems: "center",
+    textAlign: "center",
+    position: "relative",
+    "::before": {
+      content: '""',
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "rgba(0, 0, 0, 0.4)", // 👈 opacidad ajustable
+      zIndex: 0,
+    },
+  }}
+>
+  <Container sx={{ position: "relative", zIndex: 1 }}>
+    <Typography variant="h3" sx={{ mb: 2, color: "#fff" }}>
+      {title}
+    </Typography>
+    <Typography variant="body1" sx={{ color: "#fff" }}>
+      {description}
+    </Typography>
+  </Container>
+</Box>
+
     );
 };
 

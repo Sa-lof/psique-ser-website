@@ -12,11 +12,6 @@ export default function Campañas() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
-            <Banner
-                backgroundImage="/images/servicios-banner.jpg"
-                title="Campañas Psique & Ser"
-                description="Conoce nuestras campañas y eventos."
-            />
             <CampaignsSection />        
             <Footer />
         </ThemeProvider>

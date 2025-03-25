@@ -37,11 +37,6 @@ const BlogSection: React.FC = () => {
                     initial="hidden"
                     animate={sectionInView ? "visible" : "hidden"}
                 >
-                    <Banner
-                        backgroundImage="/images/servicios-banner.jpg"
-                        title="Explora Nuestro Blog"
-                        description="Accede a artículos especializados sobre salud mental, bienestar emocional y herramientas psicológicas para mejorar tu calidad de vida."
-                    />
                     <Grid container spacing={4}>
                         {paginatedData.map((item, index) => (
                             <Grid item xs={12} sm={6} md={4} key={index}>
