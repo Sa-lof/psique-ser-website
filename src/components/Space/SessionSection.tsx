@@ -5,7 +5,14 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 import SessionCard from "./SessionCard";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LockIcon from "@mui/icons-material/Lock";
-import HeartBrokenIcon from "@mui/icons-material/HeartBroken";
+import NightsStayIcon from "@mui/icons-material/NightsStay";
+import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
+import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
+import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
+import ColorLensIcon from "@mui/icons-material/ColorLens";
+import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 import { motion, useInView } from "framer-motion";
 
 interface SessionData {
@@ -19,27 +26,84 @@ interface SessionData {
 // Example data with links
 const sessions: SessionData[] = [
     {
-        icon: <FavoriteIcon fontSize="inherit" />,
-        date: "31 Ene",
-        title: "Sesión: Cuidado Emocional",
-        description: "Técnicas para manejar el estrés y la ansiedad diaria.",
-        link: "/espacio-psicoeducativo/sesion/cuidado-emocional",
+      icon: <FavoriteIcon fontSize="inherit" />,
+      date: "Viernes | 31 Ene",
+      title: "Entendiendo y abrazando nuestros miedos",
+      description: "Ponente: Ana Laura",
+      link: "/",
     },
     {
-        icon: <LockIcon fontSize="inherit" />,
-        date: "28 Feb",
-        title: "Sesión: Autocuidado y Límites",
-        description: "Aprende a establecer límites saludables en tus relaciones.",
-        link: "/espacio-psicoeducativo/sesion/autocuidado-limites",
+      icon: <LockIcon fontSize="inherit" />,
+      date: "Viernes | 28 Feb",
+      title: "Heridas de la infancia desde la teoría del apego",
+      description: "Ponente: Paola Estrada",
+      link: "/",
     },
     {
-        icon: <HeartBrokenIcon fontSize="inherit" />,
-        date: "31 Mar",
-        title: "Sesión: Procesar el Duelo",
-        description: "Herramientas para sobrellevar pérdidas y transiciones.",
-        link: "/espacio-psicoeducativo/sesion/procesar-duelo",
+      icon: <NightsStayIcon fontSize="inherit" />,
+      date: "Lunes | 31 Mar",
+      title: "Entre sueños y desvelos: Cómo el sueño afecta tu bienestar",
+      description: "Ponente: Naylea Bonilla",
+      link: "/",
     },
-];
+    {
+      icon: <VolunteerActivismIcon fontSize="inherit" />,
+      date: "Miércoles | 30 Abr",
+      title: "Cuidar y cuidarnos: La magia de la responsabilidad afectiva",
+      description: "Ponente: Maricela Lara",
+      link: "/",
+    },
+    {
+      icon: <PsychologyAltIcon fontSize="inherit" />,
+      date: "Viernes | 30 May",
+      title: "El narcisista: Discursos de amor",
+      description: "Ponente: Ximena Mendoza",
+      link: "/",
+    },
+    {
+      icon: <AutoFixHighIcon fontSize="inherit" />,
+      date: "Lunes | 30 Jun",
+      title: "Metamorfosis personal: Redescubre tu mejor versión",
+      description: "Ponente: Angélica Gil",
+      link: "/",
+    },
+    {
+      icon: <LocalFireDepartmentIcon fontSize="inherit" />,
+      date: "Jueves | 31 Jul",
+      title: "Mitos del Amor Romántico",
+      description: "Ponente: Diana Trujillo",
+      link: "/",
+    },
+    {
+      icon: <FavoriteIcon fontSize="inherit" />,
+      date: "Viernes | 19 Ago",
+      title: "Salud mental y salud sexual",
+      description: "Ponente: Luisa María",
+      link: "/",
+    },
+    {
+      icon: <ColorLensIcon fontSize="inherit" />,
+      date: "Martes | 30 Sept",
+      title: "Colores del alma: Arteterapia para el bienestar emocional",
+      description: "Ponente: Bea Martínez",
+      link: "/",
+    },
+    {
+      icon: <RecordVoiceOverIcon fontSize="inherit" />,
+      date: "Viernes | 31 Oct",
+      title: "El valor de la escucha activa",
+      description: "Ponente: Brenda Linares",
+      link: "/",
+    },
+    {
+      icon: <CelebrationIcon fontSize="inherit" />,
+      date: "Viernes | 28 Nov",
+      title: "Cierre anual",
+      description: "Ponente: Alan Torres",
+      link: "/",
+    },
+  ];
+  
 
 // Fade-up animation variants
 const fadeVariants = {
