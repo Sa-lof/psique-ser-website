@@ -5,13 +5,7 @@ import {
   Box,
   Grid,
   Typography,
-  Paper,
-  Avatar,
-  Link,
-  Stack,
 } from "@mui/material";
-import RoomIcon from "@mui/icons-material/Room";
-import BusinessIcon from "@mui/icons-material/Business";
 
 const locations = [
   {

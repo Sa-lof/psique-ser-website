@@ -7,7 +7,6 @@ import {
     Card,
     CardContent,
     CardMedia,
-    Box,
 } from "@mui/material";
 import { motion, useInView } from "framer-motion";
 import { gsap } from "gsap";
