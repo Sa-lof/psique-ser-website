@@ -5,7 +5,6 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../theme";
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
-import Banner from "@/components/Layout/Banner";
 import CampaignsSection from "@/components/Campaigns/CampaignsSection";
 
 export default function Campañas() {

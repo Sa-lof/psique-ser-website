@@ -39,40 +39,58 @@ const PersonCard: React.FC<PersonCardProps> = ({
     return (
         <>
             <Card
-                sx={{
-                    overflow: "hidden",
-                    height: 350,
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "flex-end",
-                    position: "relative",
-                    backgroundImage: `url(${photoUrl})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    color: "#fff",
-                }}
-            >
-                <CardActionArea
-                    onClick={handleOpen}
-                    sx={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}
-                >
-                    <CardContent
-                        sx={{
-                            background: "linear-gradient(to top, rgba(0,0,0,0.08), rgba(0,0,0,0))",
-                            width: "100%",
-                            py: 2,
-                            px: 2,
-                        }}
-                    >
-                        <Typography variant="h6" color="#00407A">
-                            {name}
-                        </Typography>
-                        <Typography variant="body2" sx={{ opacity: 0.9 }} color="#00407A">
-                            {description}
-                        </Typography>
-                    </CardContent>
-                </CardActionArea>
-            </Card>
+  sx={{
+    overflow: "hidden",
+    height: 350,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    position: "relative",
+    backgroundImage: `url(${photoUrl})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    color: "#fff",
+    "::before": {
+      content: '""',
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "rgba(0, 0, 0, 0.4)", // 👈 opacidad ajustable
+      zIndex: 1,
+    },
+  }}
+>
+  <CardActionArea
+    onClick={handleOpen}
+    sx={{
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "flex-end",
+      position: "relative",
+      zIndex: 2, // 👈 contenido encima del overlay
+    }}
+  >
+    <CardContent
+      sx={{
+        background: "linear-gradient(to top, rgba(0,0,0,0.08), rgba(0,0,0,0))",
+        width: "100%",
+        py: 2,
+        px: 2,
+      }}
+    >
+      <Typography variant="h6" color="#fff">
+        {name}
+      </Typography>
+      <Typography variant="body2" sx={{ opacity: 0.9 }} color="#fff">
+        {description}
+      </Typography>
+    </CardContent>
+  </CardActionArea>
+</Card>
+
 
             {/* Dialog for more details */}
             <Dialog open={open} onClose={handleClose} maxWidth="sm" fullWidth>

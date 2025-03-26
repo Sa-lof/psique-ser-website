@@ -4,7 +4,6 @@ import React, { useRef, useState } from "react";
 import { Box, Button, Container, Grid } from "@mui/material";
 import { motion, useInView } from "framer-motion";
 import BlogCard from "./BlogCard"; // Adjust import path as needed
-import Banner from "../Layout/Banner";
 import { blogData } from "@/components/Blog/BlogData";
 
 const ITEMS_PER_PAGE = 9;

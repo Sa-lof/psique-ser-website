@@ -10,10 +10,10 @@ const allShadows: Shadows = Array(25).fill(softShadow) as Shadows;
 let theme = createTheme({
     palette: {
         primary: {
-            main: "#84BF23", // Your primary color
+            main: "#00407A", // Your primary color
         },
         secondary: {
-            main: "#00407A", // Your secondary color
+            main: "#84BF23", // Your secondary color 84BF23
         },
     },
     shape: {
