@@ -32,6 +32,17 @@ const campaigns = [
             "/Campanas/funfai-6.jpeg",
         ],
     },
+    {
+        title: "ASILO DE ANCIANOS SAN JUDAS TADEO A.C.",
+        description:
+            "Asilo de Ancianos San Judas Tadeo A.C. es una asociación civil sin fines de lucro dedicada a brindar atención integral, hogar y cuidado a personas adultas mayores en situación vulnerable, promoviendo una vida digna, acompañada y protegida.",
+        images: [
+            "/Campanas/asilo-1.jpeg",
+            "/Campanas/asilo-2.jpeg",
+            "/Campanas/asilo-3.jpeg",
+            "/Campanas/asilo-4.jpeg",
+        ],
+    },
 ];
 
 
