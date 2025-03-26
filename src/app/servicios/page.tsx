@@ -15,7 +15,7 @@ export default function Servicios() {
         <ThemeProvider theme={theme}>
             <Navbar />
             <Banner
-                backgroundImage="/images/servicios-banner.jpg"
+                backgroundImage="/Services/banner.jpeg"
                 title="Nuestros Servicios"
                 description="Descubre nuestras soluciones en salud mental y atención psicológica para transformar tu vida."
             />

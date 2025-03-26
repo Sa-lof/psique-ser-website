@@ -8,12 +8,13 @@ import {
     Typography,
     Link as MuiLink,
     IconButton,
+    Link,
 } from "@mui/material";
-import { motion } from "framer-motion";
 // Example icons (use your own or from @mui/icons-material)
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
     return (
@@ -33,16 +34,23 @@ const Footer: React.FC = () => {
                     <Grid item xs={12} md={4}>
                         <Box sx={{ mb: 2 }}>
                             {/* Replace with your logo image if needed */}
-                            <Typography
-                                variant="h5"
-                                component={motion.div}
-                                initial={{ opacity: 0, y: -10 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                sx={{ fontWeight: 700 }}
-                            >
-                                Psique & Ser
-                            </Typography>
+                            <Link
+                                href="/"
+                                style={{
+                                    marginRight: "16px",
+                                    display: "flex",
+                                    flexGrow: 1,
+                                    alignItems: "center",
+                                }}
+                                >
+                                <Image
+                                    src="/Logo/logoBlanco.png" // coloca aquí el path de tu logo
+                                    alt="Psique & Ser"
+                                    width={250} // ajusta el tamaño según lo necesites
+                                    height={100}
+                                    style={{ objectFit: "contain" }}
+                                />
+                            </Link>
                         </Box>
                         <Typography variant="body2" sx={{ mb: 1 }}>
                             Lunes a Viernes: 9:00 - 21:00

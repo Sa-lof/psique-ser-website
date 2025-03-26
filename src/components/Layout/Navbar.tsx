@@ -6,7 +6,6 @@ import {
     Box,
     Toolbar,
     IconButton,
-    Typography,
     Container,
     Button,
     Drawer,
@@ -21,6 +20,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 // Brand colors
 const BRAND_PRIMARY = "#84BF23";
@@ -182,26 +182,6 @@ const Navbar = () => {
         >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    {/* Logo for mobile */}
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component={Link}
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: "flex", md: "none" },
-                            flexGrow: 1,
-                            fontWeight: 700,
-                            letterSpacing: ".2rem",
-                            color: "primary.main",
-                            textDecoration: "none",
-                        }}
-                    >
-                        Psique & Ser
-                    </Typography>
-
-                    {/* Mobile menu button */}
                     <Box sx={{ display: { xs: "flex", md: "none" } }}>
                         <IconButton
                             size="large"
@@ -219,22 +199,23 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                     >
-                        <Typography
-                            variant="h5"
-                            noWrap
-                            component={Link}
-                            href="/"
-                            sx={{
-                                mr: 4,
-                                display: { xs: "none", md: "flex" },
-                                fontWeight: 700,
-                                letterSpacing: ".2rem",
-                                color: "primary.main",
-                                textDecoration: "none",
-                            }}
-                        >
-                            Psique & Ser
-                        </Typography>
+                        <Link
+                    href="/"
+                    style={{
+                        marginRight: "16px",
+                        display: "flex",
+                        flexGrow: 1,
+                        alignItems: "center",
+                    }}
+                    >
+                    <Image
+                        src="/Logo/logoAzul.png" // coloca aquí el path de tu logo
+                        alt="Psique & Ser"
+                        width={140} // ajusta el tamaño según lo necesites
+                        height={60}
+                        style={{ objectFit: "contain" }}
+                    />
+                    </Link>
                     </motion.div>
 
                     {/* Desktop navigation */}
