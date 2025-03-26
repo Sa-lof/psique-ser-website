@@ -54,21 +54,21 @@ const MissionVisionValuesSection: React.FC = () => {
                     <Grid item xs={12} sm={6} md={4}>
                         <MissionCard
                             title="Misión"
-                            description="Brindar atención psicológica integral a niños, adolescentes y adultos, promoviendo su bienestar emocional y crecimiento personal."
+                            description="Prevenir, intervenir y salvaguardar la salud mental de la población. Así como, otorgar las bases para forjar la estabilidad psicosocial de los pacientes."
                             icon={<EmojiObjectsIcon fontSize="inherit" />}
                         />
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
                         <MissionCard
                             title="Visión"
-                            description="Ser reconocidos como un referente en salud mental, ofreciendo soluciones de calidad e impulsando la innovación en la práctica clínica."
+                            description="Ser una Asociación Civil reconocida a nivel nacional por brindar un servicio de salud mental accesible y de calidad para los pacientes. De igual modo, consolidarnos como un centro de actualización, aprendizaje y formación clínica para psicólogos en desarrollo."
                             icon={<VisibilityIcon fontSize="inherit" />}
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <MissionCard
                             title="Valores"
-                            description="Compromiso, ética, empatía, responsabilidad y profesionalismo son la base de nuestro trabajo diario."
+                            description="Apoyo, honestidad, respeto, confianza, paciencia, entrega, progreso, aprendizaje, comunicación y creatividad."
                             icon={<FavoriteIcon fontSize="inherit" />}
                         />
                     </Grid>
