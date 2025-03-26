@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Box, Grid, Typography, Link, Stack } from "@mui/material";
+import { Box, Grid, Typography} from "@mui/material";
 import ContactForm from "./ContactForm"; // Asegúrate de importar el formulario correctamente
 
 const ContactSection: React.FC = () => {

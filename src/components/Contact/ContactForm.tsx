@@ -7,18 +7,10 @@ import {
   TextField,
   Button,
   Typography,
-  MenuItem,
   InputAdornment,
-  Paper,
   Card,
 } from "@mui/material";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-
-const countries = [
-  { code: "+1", label: "US" },
-  { code: "+52", label: "MX" },
-  { code: "+62", label: "ID" },
-];
 
 const MAX_MESSAGE_LENGTH = 120;
 
