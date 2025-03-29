@@ -13,6 +13,7 @@ import BlogSection from "@/components/Blog/BlogSection";
 import CountersSection from "@/components/CountersSection";
 import TestimoniesSection from "@/components/Testimonies/TestimoniesSection";
 import Footer from "@/components/Layout/Footer";
+import CarouselLogos from "@/components/Layout/CarouselLogos";
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
               <HeroSwiper />
               <FounderSection />
               <ServiceSection />
+              <CarouselLogos />
               <WhyPsiqueSer />
               <CTA />
               <BlogSection />
