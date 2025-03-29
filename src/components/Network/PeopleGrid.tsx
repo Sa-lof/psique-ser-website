@@ -280,7 +280,7 @@ const PeopleGrid: React.FC = () => {
     const visiblePeople = people.slice(0, visibleCount);
 
     return (
-        <Box sx={{ py: { xs: 6, md: 12 }, }}>
+        <Box sx={{ py: { xs: 6, md: 12 },  pt: { xs: 15, md: 0 },}}>
             <Container>
                 <Typography
                     variant="h3"

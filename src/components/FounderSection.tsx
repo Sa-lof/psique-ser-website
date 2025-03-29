@@ -39,6 +39,7 @@ const FounderSection: React.FC = () => {
                 minHeight: { xs: "auto", md: "100vh" },
                 display: "flex",
                 alignItems: "center",
+                pt: { xs: 8, md: 0 },
             }}
         >
             <Container>

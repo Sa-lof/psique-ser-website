@@ -32,6 +32,7 @@ const MainBannerNosotros: React.FC = () => {
                 backgroundColor: "#f9fafb",
                 display: "flex",
                 alignItems: "center",
+                pt: { xs:  15, md: 0 },
             }}
         >
             <Container>

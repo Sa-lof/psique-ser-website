@@ -79,6 +79,7 @@ const CampaignsSection: React.FC = () => {
                 alignItems: "center",
                 textAlign: "center",
                 color: "#fff",
+                pt: { xs: 8, md: 0 },
             }}
         >
             <Container sx={{ zIndex: 1 }}>
