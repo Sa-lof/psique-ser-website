@@ -34,6 +34,7 @@ const BannerEspacioPsicoeducativo: React.FC = () => {
                 alignItems: "center",
                 textAlign: "center",
                 position: "relative",
+                pt: { xs: 8, md: 0 },
                 "::before": {
                   content: '""',
                   position: "absolute",

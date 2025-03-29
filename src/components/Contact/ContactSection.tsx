@@ -11,6 +11,7 @@ const ContactSection: React.FC = () => {
         bgcolor: "#fbfbfb",
         py: { xs: 6, md: 20},
         px: { xs: 2, md: 10 },
+        pt: { xs: 15, md: 20 },
       }}
     >
       <Grid container spacing={6} justifyContent="center">
