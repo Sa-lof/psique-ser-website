@@ -38,7 +38,7 @@ const ContactSection: React.FC = () => {
                     Atención al Cliente
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                Resolvemos tus dudas sobre horarios, servicios o campañas. Estamos para ayudarte.
+                Resolvemos tus dudas sobre horarios, servicios o campañas. Estamos para escucharte.
                 </Typography>
               </Grid>
 
@@ -47,8 +47,11 @@ const ContactSection: React.FC = () => {
                     Sugerencias y Retroalimentación
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                Tus comentarios nos ayudan a mejorar. Agradecemos tu retroalimentación.
-                </Typography>
+                    Tus comentarios nos ayudan a mejorar. Agradecemos tu retroalimentación.{" "}<strong>
+                    <a href="https://forms.gle/NFm1zj6mtNtJFjGi8" target="_blank" rel="noopener noreferrer">
+                        Responde nuestra encuesta aquí
+                    </a>.</strong>
+                    </Typography>
               </Grid>
 
               <Grid item xs={12} sm={4}>
@@ -56,7 +59,7 @@ const ContactSection: React.FC = () => {
                     Colaboraciones y Alianzas
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    ¿Institución, organización o profesional en salud mental? Colaboremos. <strong>📬 psique_ser@outlook.com</strong>.
+                    ¿Institución, organización o profesional en salud mental? Colaboremos. <strong> psique_ser@outlook.com</strong>.
                 </Typography>
               </Grid>
             </Grid>

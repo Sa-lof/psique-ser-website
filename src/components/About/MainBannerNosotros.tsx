@@ -38,14 +38,26 @@ const MainBannerNosotros: React.FC = () => {
                 <Grid container spacing={4} alignItems="center">
                     {/* Left: Illustration */}
                     <Grid item xs={12} md={5}>
-                        <Box sx={{ textAlign: "center" }}>
+                        <Box
+                            sx={{
+                            width: "100%",
+                            borderRadius: "20px",
+                            overflow: "hidden"
+                            }}
+                        >
                             <Image
-                                src="/About/nosotros-illustration.jpg"
-                                alt="Ilustración Psique & Ser"
-                                width={300}
-                                height={300}
-                                style={{ maxWidth: "100%", height: "auto" }}
-                            />
+                                src="/nosotros-illustration.jpg"
+                                alt="Founder"
+                                width={500}
+                                height={500}
+                                style={{
+                                    width: "60%",
+                                    height: "auto",
+                                    borderRadius: "20px",
+                                    objectFit: "contain",
+                                    display: "block",
+                                }}
+                                />
                         </Box>
                     </Grid>
 

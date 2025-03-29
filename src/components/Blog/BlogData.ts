@@ -11,8 +11,40 @@ export interface BlogItem {
 
 
 export const blogData: BlogItem[] = [
+      {
+        date: "28 MAR 2025",
+        author: "Psique & Ser",
+        title: "Entre Sueños y Desvelos: ¿Cómo el sueño afecta tu bienestar?",
+        excerpt: "Dormir bien no es un lujo, es una necesidad. Descubre cómo la calidad del sueño impacta tu salud física, mental y emocional, y aprende a mejorar tus hábitos para un descanso reparador.",
+        slug: "post-30",
+        image: "/blog/post-30.png",
+        content: [
+            { type: "paragraph", text: "A lo largo de nuestra vida, el sueño ha formado parte importante de nuestro desarrollo, por lo que es necesario que conozcamos más acerca de las cosas que suceden cuando nosotros dormimos, ya que, al dormir, también realizamos funciones que nos permiten tener un mejor rendimiento, desempeño al momento de despertar y dependiendo de nuestra calidad de sueño, será el impacto que tendrá en nuestro diario vivir. <br/><br/>El sueño es un proceso fisiológico que nos permite restablecer las funciones físicas y mentales para mantener un adecuado estado de salud y adaptarnos a las diversas situaciones que se presentan cada día, en el cual se producen las hormonas responsables de regular los patrones que intervienen con el hambre, la saciedad, el bienestar, el crecimiento y la reproducción.<br/><br/>El dormir tiene un impacto directo en las personas, en su salud mental y del cual pueden generarse diversas enfermedades y padecimientos por no poder llevar acabo esta acción que al pasar del tiempo se ha convertido en algo secundario debido al modo tan apresurado que tenemos de vivir, por diversos factores tanto económicos como sociales. Los seres humanos pasamos más de una tercera parte de nuestra vida durmiendo, lo que demuestra que dormir es una actividad fisiológica indispensable para vivir.<br/><br/>" },
+            { type: "quote", text: "El que nosotros podamos dormir de manera adecuada y con las horas que corresponden de acuerdo a nuestra edad, nos permite tener múltiples beneficios como un mejor rendimiento académico y laboral." },
+            { type: "paragraph", text: "Incluyendo un bienestar en nuestra salud, ya que el dormir puede favorecer a nuestros procesos cognitivos como lo es la memoria y el aprendizaje, nos puede ayudar en la perdida de peso, mejora no solo nuestro estado de animo, también puede llevarnos a evitar trastornos de ansiedad y depresión, los cuales tienden a generar trastornos del dormir como el insomnio como efectos secundarios de diversos trastornos mentales.<br/><br/>Se ha comprobado que el dormir es un proceso que así como nosotros, también va cambiando y modificándose al pasar del tiempo; por lo que es fundamental conocer con exactitud cuánto tiempo es el ideal dormir de acuerdo a nuestra edad. A continuación, mostraremos una gráfica que nos muestra las horas que cada individuo, de acuerdo a la edad, debe dormir para poder completar todas aquellas funciones que su cerebro necesita para funcionar adecuadamente.<br/><br/>Para poder mejorar nuestra calidad de sueño hay cosas que se pueden realizar de manera propia, a esto de le llama Higiene de Sueño, el cual consiste en crear hábitos o rutinas para antes de dormir, para poder preparar a nuestro cerebro e irlo ayudando a relajarse y disminuir la carga del día a día, lo cual nos permitirá inducir el sueño con mayor facilidad. A continuación, se muestra una imagen con ejemplos de actividades que son parte de la Higiene de Sueño.<br/><br/>" },
+            { type: "paragraph", text: "Para poder mejorar nuestra calidad de sueño hay cosas que se pueden realizar de manera propia, a esto de le llama Higiene de Sueño, el cual consiste en crear hábitos o rutinas para antes de dormir, para poder preparar a nuestro cerebro e irlo ayudando a relajarse y disminuir la carga del día a día, lo cual nos permitirá inducir el sueño con mayor facilidad. A continuación, se muestra una imagen con ejemplos de actividades que son parte de la Higiene de Sueño. Existen grandes beneficios que podemos obtener de tener buena calidad de sueño, sin embargo, hay consecuencias graves que podemos ocasionarnos por no dormir las horas que nosotros necesitamos.<br/><br/>Un mal dormir nos puede llevar a padecer diversas enfermedades tales como enfermedades cardiovasculares, diabetes mellitus tipo 2 y síndrome metabólico, diversas comorbilidades psiquiátricas y en algunos casos se ha demostrado que el tener privación de sueño de manera constante puede llevar a incrementar el riesgo a desarrollar cáncer, por lo que es de suma importancia comenzar a identificar nuestros malos hábitos de sueño, corregirlos y tratar aquellos padecimientos que tengamos relacionados al sueño de la mano de un profesional de la salud.<br/><br/>" },
+          ],
+        tags: ["Salud mental", "Sueño y descanso", "Higiene del sueño", "Bienestar emocional", "Estilo de vida saludable", "Prevención de enfermedades"]        
+    },
     {
-        date: "31 OCT",
+        date: "28 MAR 2025",
+        author: "Psique & Ser",
+        title: "Heridas de la infancia desde la teoría del apego.",
+        excerpt: "Comprende cómo los estilos de apego en la infancia impactan tus relaciones y bienestar emocional en la adultez. Sanar las heridas emocionales es clave para construir vínculos saludables.",
+        slug: "post-29",
+        image: "/blog/post-29.png",
+        content: [
+            { type: "paragraph", text: "Desde los primeros días de vida nos vinculamos emocionalmente con nuestros cuidadores, principalmente los padres o figuras que los suplen como abuelos, niñeras, tíos. John Bowlby (1958) ha demostrado que la tendencia a establecer esos vínculos es innata. A partir de esta conexión, el niño define un estilo para relacionarse con los demás.<br/><br/>Desde pequeños tenemos una necesidad innata de buscar esa cercanía para recibir amor, cuidados y protección en aquellas personas que se suponen cuidaran y nos amaran profundamente.<br/><br/>" },
+            { type: "quote", text: "Necesitamos apegarnos para sobrevivir. Los cuidados que recibimos nos ayudan a transitar por la vida en lo que aprendemos a ser independientes y autosuficientes." },
+            { type: "paragraph", text: "Más que determinar si se tiene o no, es más conveniente valorar cómo es mi forma de apegarme o mi estilo de apego, es decir, la forma que aprendí desde niño de responder a la manera de ser amado y cuidado por mis padres.<br/><br/>Si los padres buscaron la manera de dar cuidados consistentes al bebé, se esforzaron por demostrarle su amor, si estuvieron atentos a sus necesidades, el bebé -gradualmente- aprenderá que el amor no duele, que puede confiar en esas personas que lo están cuidando, pero sobre todo que puede confiar en que él es una persona digna y merece ser amada.<br/><br/>Lo anterior describe en parte la teoría del apego. Dicha teoría del apego establece 4 formas en que las personas aprenden a apegarse dependiendo cómo hayan sido cuidados, educados, criados durante la infancia: apego seguro, ansioso, evitativo o desorganizado<br/><br/>El niño desarrolla un apego seguro cuando la figura de apego está disponible para él, le brindan cariño y al mismo tiempo le permite la exploración del mundo que lo rodea bajo la mirada atenta.<br/><br/>" },
+            { type: "paragraph", text: "Para un apego ansioso, las personas que cuidan del bebé por momentos muestran poco interés por él y en otros, actúan exageradamente y sobreprotegiéndolo. El niño vive en constante incertidumbre sobre si sus padres o cuidadores estarán disponibles para él.<br/><br/>Con respecto al apego evitativo, los padres o cuidadores suelen reaccionar de una forma que el niño no necesita porque no están disponibles o no están comprometidos con su rol parental. A lo largo de su crecimiento, son niños muy independientes, pero presentan dificultades para gestionar sus emociones y establecer lazos de confianza con los demás. <br/><br/>El apego desorganizado se desarrolla cuando el niño recibe constantemente respuestas repulsivas o agresivas. Se da en familias donde hay maltrato, abusos, padres con adicciones o con psicopatologías. Los niños aprenden que es mejor no mostrar sus emociones porque no tienen seguridad de obtener respuestas de sus padres o cuidadores. <br/><br/>¿Cuál es la utilidad de conocer y comprender las relaciones o el tipo de apego? Porque pueden influir en cómo construimos relaciones, en la personalidad, en el bienestar emocional y la forma en que la persona se ve a sí misma. Los patrones que se desarrollan en la infancia tienden a repetirse en la adultez. <br/><br/>" },
+            { type: "paragraph", text: "El tipo de apego que se desarrolla en la infancia puede influir en la aparición de heridas emocionales. Dichas heridas pueden ser causadas por experiencias dolorosas, de abuso, pérdidas significativas, de relaciones disfuncionales o eventos estresantes.<br/><br/>Existen cinco tipos de heridas emocionales. Cada una de ellas tiene sus propias características y podemos tener una o varias dependiendo de las experiencias y sucesos que ha vivido cada persona.<br/><br/><ul><li>Herida de rechazo. Es una persona que procura pasar desapercibida, se anula.</li><li>Factores ambientales y sociales como inseguridad, desastres, violencia, etc.</li><li>Herida de abandono. Tiene miedo a la soledad, hace lo posible por llamar la atención y ser amado.</li><li>Herida de humillación. Es una persona que de forma inconsciente buscar el dolor y la humillación,</li><li>Herida de traición. Como no tolera la traición, hace lo posible por ser responsable y fuerte. </li><li>Herida de injusticia. Su percepción es que se le aprecie más por lo que hace que por lo que es.</li></ul><br/><br/>" },
+            { type: "paragraph", text: "Debido a que lo que aprendemos de nuestros padres en nuestra niñez es lo que llevamos a nuestras relaciones en la vida adulta.<br/><br/>Los apegos que desarrollamos son patrones con los que vamos creciendo con ellos. Por ejemplo, si yo crecí en un hogar permisivo donde todo se vale, todo se permite, eso lo traslado a mi relación; si, por el contrario, me desarrollo en un ambiente restrictivo con límites, entonces idealizo que la relación de pareja es así: exigiendo, no negociando”.<br/><br/>Las consecuencias de no resolver las heridas emocionales de la niñez son varias, y pueden afectar posteriormente nuestras relaciones sociales, al grado de evitar la cercanía o no confiar en los demás, reprimir o exagerar nuestras emociones, sentir ansiedad por abandono, dar en exceso, ser codependientes, entre otros efectos. <br/><br/>¿Cómo podemos identificar, conectar, comprender y trabajar las heridas emocionales? Podemos preguntarnos ¿en qué momento de nuestra infancia nos sentimos de terminada manera?, ¿qué nos hubiera gustado recibir, ¿qué necesito darme o empezar a brindarme? La intención es redefinir nuestras heridas, que nos permita iniciar el proceso de autodescubrimiento, reestructurar el amor propio y construir relaciones saludables. <br/><br/>Si el proceso se torna muy intenso por recordar el pasado relacional, el acompañamiento de un especialista es la mejor opción. La terapia no es solo para tratar heridas, también sirve para no herir a otros. Sanar para aprender para crecer para seguir. <br/><br/>" },
+          ],
+        tags: ["Apego infantil", "Heridas emocionales", "Psicología", "Relaciones afectivas", "Salud mental", "Autoconocimiento"]        
+    },
+    {
+        date: "31 OCT 2023",
         author: "Psic. Ruth Gonzalez | Psicóloga en Red Clínica de Psique & Ser",
         title: "Salud mental, un derecho universal",
         excerpt: "Tu bienestar mental es un derecho, no un lujo. Descubre cómo cuidar tu salud emocional y mejorar tu calidad de vida.",
@@ -31,7 +63,7 @@ export const blogData: BlogItem[] = [
         tags: ["Derecho universal", "Salud mental", "Bienestar", "Equilibrio", "Calidad de vida", "Relaciones de calidad"]        
     },
     {
-        date: "31 AGO",
+        date: "31 AGO 2023",
         author: "Psic. Brenda Linares | Psicóloga en Red Clínica de Psique & Ser",
         title: "Suicidio: Mitos y realidades",
         excerpt: "Rompiendo mitos sobre el suicidio: descubre la verdad, derriba estigmas y aprende cómo la prevención puede salvar vidas. ",
@@ -73,7 +105,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "31 JUL",
+        date: "31 JUL 2023",
         author: "Psic. Paola Estrada | Psicóloga en Red Clínica de Psique & Ser",
         title: "Competencias parentales: ¿Qué hace a una mamá, a un papá ser eficientes?",
         excerpt: "Ser un buen padre o madre no es cuestión de suerte, sino de competencias. Descubre cómo fortalecer tu rol parental y criar con confianza.",
@@ -139,7 +171,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "31 MAY",
+        date: "31 MAY 2023",
         author: "Psic. Teresita Quintana | Psicóloga en Red Clínica de Psique & Ser",
         title: "La ruptura del lazo social como consecuencia de la posmodernidad",
         excerpt: "En la era digital, ¿nos estamos desconectando más que nunca? Descubre cómo la posmodernidad impacta nuestras relaciones y lazos sociales",
@@ -189,7 +221,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "28 ABR",
+        date: "28 ABR 2023",
         author: "Psic. Paola Luna | Psicóloga en Red Clínica de Psique & Ser",
         title: "Disciplina positiva: un método de crianza para niños",
         excerpt: "Educar con amor y respeto es posible. Descubre cómo la disciplina positiva puede transformar la crianza de tus hijos.",
@@ -259,7 +291,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "31 MAR",
+        date: "31 MAR 2023",
         author: "Psic. Liliana Guzmán | Psicóloga en Red Clínica de Psique & Ser",
         title: "La obesidad, como un tejido entre la alimentación y los afecto",
         excerpt: "La obesidad va más allá de la alimentación: descubre su conexión con las emociones y el afecto.",
@@ -293,7 +325,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "28 FEB",
+        date: "28 FEB 2023",
         author: "Psic. Ximena Mendoza | Fundadora de Psique & Ser",
         title: "Relaciones sanas en la adolescencia: Amor y amistad",
         excerpt: "Amor y amistad en la adolescencia: claves para construir relaciones sanas y significativas.",
@@ -323,7 +355,7 @@ export const blogData: BlogItem[] = [
           ]
     },
     {
-        date: "31 ENE",
+        date: "31 ENE 2023",
         author: "Psic. Alan Torres V | Fundador y Director de Psique & Ser",
         title: "Rituales de inicio de año y sus efectos en nuestra psique",
         excerpt: "Más que una tradición, los rituales de inicio de año impactan nuestra mente y emociones. Descubre su poder psicológico.",
