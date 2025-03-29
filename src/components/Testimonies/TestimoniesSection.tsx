@@ -19,10 +19,10 @@ interface Testimony {
 
 const SwiperContainer = styled(Box)(() => ({
     ".swiper-button-next, .swiper-button-prev": {
-        color: "#84BF23 !important", // primary color
+        color: "#00407A !important", // primary color
     },
     ".swiper-pagination-bullet": {
-        backgroundColor: "#84BF23 !important", // primary color
+        backgroundColor: "#00407A !important", // primary color
     },
 }));
 

@@ -13,7 +13,7 @@ let theme = createTheme({
             main: "#00407A", // Your primary color
         },
         secondary: {
-            main: "#84BF23", // Your secondary color 84BF23
+            main: "#00407A", // Your secondary color 84BF23
         },
     },
     shape: {

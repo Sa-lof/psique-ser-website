@@ -2,7 +2,6 @@
 
 import React, { useRef, useEffect } from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { gsap } from "gsap";
 
@@ -46,20 +45,29 @@ const FounderSection: React.FC = () => {
                 <Grid container spacing={4} alignItems="center">
                     {/* Left: Image */}
                     <Grid item xs={12} md={5}>
+                    <Box
+                        ref={imgRef}
+                        sx={{
+                        width: "100%",
+                        borderRadius: "20px",
+                        overflow: "hidden"
+                        }}
+                    >
                         <Box
-                            ref={imgRef}
-                            sx={{ width: "100%", borderRadius: 2, overflow: "hidden"}}
-                        >
-                            <Image
-                                src="/founder.jpg"
-                                alt="Founder"
-                                width={600}
-                                height={400}
-                                style={{ objectFit: "contain"}}
-                                
-                            />
-                        </Box>
+                        component="img"
+                        src="/founder.jpg"
+                        alt="Founder"
+                        sx={{
+                            width: "60%",
+                            height: "auto",
+                            borderRadius: "20px",
+                            objectFit: "contain",
+                            display: "block",
+                        }}
+                        />
+                    </Box>
                     </Grid>
+
 
                     {/* Right: Text */}
                     <Grid item xs={12} md={7}>

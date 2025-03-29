@@ -30,7 +30,7 @@ const SwiperContainer = styled(Box)(({ theme }) => ({
         },
     },
     ".swiper-pagination-bullet": {
-        backgroundColor: "#84BF23 !important", // Primary color for dots
+        backgroundColor: "#00407A !important",
     },
 }));
 
