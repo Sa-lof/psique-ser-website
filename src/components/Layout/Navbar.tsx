@@ -153,7 +153,7 @@ const Navbar = () => {
             <Box sx={{ p: 2, mt: 2 }}>
                 <Button
                     component={Link}
-                    href="/agendar"
+                    href="https://wa.me/5215534458029"
                     fullWidth
                     variant="contained"
                     color="primary"
@@ -258,7 +258,7 @@ const Navbar = () => {
                                 variant="contained"
                                 color="primary"
                                 component={Link}
-                                href="/agendar"
+                                href="https://wa.me/5215534458029"
                                 sx={{
                                     px: 3,
                                     py: 1,
