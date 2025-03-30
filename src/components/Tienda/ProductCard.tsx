@@ -42,10 +42,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <>
             <Card
                 sx={{
-                    boxShadow: 4,
-                    width: 320,
-                    height: 580,
-                    borderRadius: 4,
+                    height: 700,
                     overflow: "hidden",
                     transition: "transform 0.2s ease, box-shadow 0.2s ease",
                     ":hover": {
@@ -58,7 +55,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             >
                 <CardMedia
                     component="img"
-                    height="260"
+                    height="400"
                     image={imageUrl}
                     alt={name}
                     sx={{ objectFit: "cover" }}

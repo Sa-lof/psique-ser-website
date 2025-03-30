@@ -87,7 +87,7 @@ const LocationSection: React.FC = () => {
               Nuestras locaciones
             </Typography>
             <Typography variant="h4" fontWeight="bold" gutterBottom>
-              Te esperamos en {loc.addressLines[2]}
+              Te esperamos en {loc.addressLines[0]}
             </Typography>
 
             <Box mt={3}>

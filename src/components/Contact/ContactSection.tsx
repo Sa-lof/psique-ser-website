@@ -68,7 +68,7 @@ const ContactSection: React.FC = () => {
         </Grid>
 
         {/* Right Column - Contact Form */}
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "right" }}>
           <ContactForm />
         </Grid>
       </Grid>

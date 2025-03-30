@@ -92,7 +92,7 @@ const ProductGrid: React.FC = () => {
                         key={index}
                         xs={12}
                         sm={6}
-                        md={4}
+                        md={6}
                         sx={{
                             display: "flex",
                             justifyContent: "center",
