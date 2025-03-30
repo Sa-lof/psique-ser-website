@@ -104,22 +104,6 @@ const people: PersonData[] = [
         "Psicóloga con experiencia clínica desde un enfoque cognitivo conductual. Se dedica a la consulta privada y, también, es docente en educación primaria.",
     },
     {
-      photoUrl: "/Red/20.jpg",
-      name: "Psic. Guadalupe Luna",
-      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
-      avatarUrl: "/Red/20.jpg",
-      semblanza:
-        "Psicóloga clínica egresada de la UNAM con enfoque cognitivo conductual. Cuenta con experiencia en terapia, evaluación e intervención psicológica y psicofisiológica en adolescentes y adultos.",
-    },
-    {
-      photoUrl: "/Red/22.jpg",
-      name: "Psic. Paola Rojas",
-      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
-      avatarUrl: "/Red/22.jpg",
-      semblanza:
-        "Psicóloga egresada de la UNIVDEP con una especialidad en Tanatología. Cuenta con experiencia en el ámbito clínico con pacientes que requieren intervención en crisis, procesos tanatológicos y primeros auxilios psicológicos.",
-    },
-    {
       photoUrl: "/Red/21.jpg",
       name: "Psic. Fernando Contreras",
       description: "Psicólogo en Red Clínica de Psique & Ser A.C.",
@@ -134,14 +118,6 @@ const people: PersonData[] = [
       avatarUrl: "/Red/27.jpg",
       semblanza:
         "Psicóloga clínica con enfoque humanista, brinda atención a adolescentes y adultos. De igual modo, proporciona terapia de pareja. Es egresada de la Universidad Latinoamérica y tiene formación en terapia breve.",
-    },
-    {
-      photoUrl: "/Red/28.jpg",
-      name: "Psic. Stephanie Naranjo",
-      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
-      avatarUrl: "/Red/28.jpg",
-      semblanza:
-        "Mtra. egresada de la Universidad Iberoamericana. Cuenta con experiencia clínica y también labora en el proyecto para intervención en trauma complejo y proyecto relacionado con Trastorno Límite de la Personalidad.",
     },
     {
       photoUrl: "/Red/4.jpg",
@@ -200,14 +176,6 @@ const people: PersonData[] = [
         "Mtra. en psicología clínica por parte de la Universidad Humanitas. Cuenta con experiencia como docente a nivel Universitario y como psicóloga particular.",
     },
     {
-      photoUrl: "/Red/25.jpg",
-      name: "Psic. Ruth González",
-      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
-      avatarUrl: "/Red/25.jpg",
-      semblanza:
-        "Psicóloga clínica egresada de la Universidad Franco Mexicana, con 15 años de experiencia brindando atención psicológica y acompañamiento tanatológico a adolescentes y adultos, así como en la aplicación e integración de evaluaciones psicológicas desde un modelo cognitivo conductual.",
-    },
-    {
       photoUrl: "/Red/30.jpg",
       name: "Psic. Karla Winkler",
       description: "Psicoanalista en Red Clínica de Psique & Ser A.C.",
@@ -248,12 +216,100 @@ const people: PersonData[] = [
         "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
     },
     {
-      photoUrl: "/Red/32.png",
-      name: "Dr. Armando Coronel",
-      description: "Psiquiatra en Red Clínica de Psique & Ser A.C.",
-      avatarUrl: "/Red/32.png",
+      photoUrl: "/Red/33.jpg",
+      name: "Psic. Aidé González",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/33.jpg",
       semblanza:
-        "Psiquiatra y somnólogo egresado del Instituto de Psiquiatría. Maestro de Ciencias Médicas. Profesor de psicología médica en la facultad de medicina de la UNAM. Cuenta con experiencia en atención a trastornos del estado de ánimo, de personalidad y del sueño. Colabora con la red clínica atendiendo pacientes de forma presencial y en línea.",
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/34.jpg",
+      name: "Psic. Angélica Gil",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/34.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/35.jpg",
+      name: "Psic. Beatríz Martínez",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/35.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/36.jpg",
+      name: "Psic. Diana Rueda",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/36.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/37.jpg",
+      name: "Psic. Diego Rosa",
+      description: "Psicólogo en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/37.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/38.jpg",
+      name: "Psic. Gisela Hernández",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/38.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/39.jpg",
+      name: "Psic. Iliuhtzy López",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/39.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/40.jpg",
+      name: "Psic. Iris Alfonso",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/40.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/41.jpg",
+      name: "Psic. Jatnaely Ruíz",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/41.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/42.jpg",
+      name: "Psic. Jazmin Tavera",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/42.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/43.jpg",
+      name: "Psic. Paulina Vázquez",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/43.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+    },
+    {
+      photoUrl: "/Red/44.jpg",
+      name: "Psic. Tania Ávila",
+      description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
+      avatarUrl: "/Red/44.jpg",
+      semblanza:
+        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
     },
 ];
   
@@ -280,11 +336,11 @@ const PeopleGrid: React.FC = () => {
     const visiblePeople = people.slice(0, visibleCount);
 
     return (
-        <Box sx={{ py: { xs: 6, md: 12 },  pt: { xs: 15, md: 0 },}}>
+        <Box sx={{ py: { xs: 6, md: 12 },  pt: { xs: 15, md: 15 },}}>
             <Container>
                 <Typography
                     variant="h3"
-                    sx={{ mb: 4, textAlign: "center", fontWeight: 700 }}
+                    sx={{ mb: 7, textAlign: "center", fontWeight: 700 }}
                 >
                     Nuestra Red Clínica
                 </Typography>
