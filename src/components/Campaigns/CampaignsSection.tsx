@@ -8,7 +8,7 @@ import { motion, useInView } from "framer-motion";
 // Example data
 const campaigns = [
     {
-        title: "Dogminiquee",
+        title: "Dogminiquee primera campaña de solidaridad",
         description:
             "Dogminiquee es una fundación dedicada a la protección y rescate de perros en situación de calle. A través de esta campaña, recolectamos alimento, medicinas y donaciones para apoyar su labor.",
         images: [
