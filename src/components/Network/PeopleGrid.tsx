@@ -221,7 +221,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/33.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con enfoque cognitivo-conductual, especializada en evaluación, diagnóstico e intervención psicológica con adolescentes y adultos. Egresada de la UNAM con licenciatura en Psicología. Brinda atención de manera presencial, con horarios a convenir directamente con la terapeuta.",
     },
     {
       photoUrl: "/Red/34.jpg",
@@ -229,7 +229,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/34.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicoterapeuta con enfoque humanista, con experiencia en la atención a adolescentes y adultos. Brinda acompañamiento emocional a personas que buscan alternativas de solución a situaciones que consideran problemáticas. Egresada de la UNAM como licenciada en Psicología, con especialidad en Terapia Gestalt, Psicoterapia Sistémica, Terapia Psicocorporal y Terapia Familiar. Ofrece atención presencial y en línea, con horario a convenir directamente con la terapeuta.",
     },
     {
       photoUrl: "/Red/35.jpg",
@@ -237,7 +237,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/35.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga clínica y psicoterapeuta con enfoque cognitivo-conductual, especializada en la atención a niños, adolescentes y adultos. Cuenta con experiencia en temas de salud mental como estrés, ansiedad y TOC. Además, brinda acompañamiento tanatológico y se especializa en evaluación, diagnóstico y procesos terapéuticos individuales. Egresada de la Universidad Tecnológica Latinoamericana, con diplomados en terapia cognitivo-conductual (ANÁHUAC) y tanatología (Instituto Mexicano de Tanatología A.C.). Ofrece atención presencial y en línea, con horario a convenir con la terapeuta.",
     },
     {
       photoUrl: "/Red/36.jpg",
@@ -245,7 +245,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/36.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga clínica con enfoque cognitivo-conductual, especializada en terapia integradora de tercera generación. Atiende procesos de separación, divorcio, ansiedad, depresión, drogadicción, dependencia emocional, TOC, fobias, manejo de ira, modificación de conducta, trastornos del estado de ánimo, estrés postraumático, preocupaciones o miedos excesivos e intervención en crisis. Egresada de la Universidad del Pedregal y con maestría en Psicología Clínica por la Universidad ISEP. Ofrece atención presencial y en línea, con horarios a convenir directamente con la terapeuta.",
     },
     {
       photoUrl: "/Red/37.jpg",
@@ -253,7 +253,7 @@ const people: PersonData[] = [
       description: "Psicólogo en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/37.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicólogo con enfoque sistémico centrado en soluciones, con experiencia en la atención a adolescentes y adultos. Su práctica clínica busca comprender las dinámicas interpersonales y ofrecer herramientas prácticas para mejorar la calidad de vida. Egresado del Centro Interdisciplinario de Ciencias de la Salud (Unidad Santo Tomás del IPN), con formación en tanatología y diplomado en Terapia Gestalt Relacional por el Centro de Psicoterapia Gestaltung A.C. Ofrece atención presencial y en línea, con horario a convenir directamente con el terapeuta.",
     },
     {
       photoUrl: "/Red/38.jpg",
@@ -261,7 +261,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/38.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con enfoque psicoanalítico, con experiencia en el ámbito clínico brindando atención e intervención en el desarrollo psicosocial de niños, adolescentes y adultos. Licenciada en Psicología por la Universidad Intercontinental y con maestría en estudios en Psicoanálisis por la Universidad del Claustro de Sor Juana. Brinda atención en línea, con horario a convenir directamente con la terapeuta.",
     },
     {
       photoUrl: "/Red/39.jpg",
@@ -269,7 +269,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/39.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con experiencia en el trabajo terapéutico con niños, enfocándose en el desarrollo de sus habilidades emocionales, sociales y cognitivas. Utiliza pruebas proyectivas como herramienta clave para comprender mejor el mundo interno, emociones y necesidades de los menores, adaptando el proceso a su edad y personalidad. Licenciada en Psicología por la Universidad Autónoma Metropolitana, Unidad Xochimilco. Ofrece atención presencial y en línea, con horario a convenir con la terapeuta.",
     },
     {
       photoUrl: "/Red/40.jpg",
@@ -277,7 +277,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/40.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga clínica con experiencia en la atención de niños, niñas, adolescentes y adultos, abordando problemáticas psiquiátricas y del comportamiento desde un enfoque cognitivo-conductual. Especialista en Estructuración de Modelos de Intervención y acreditada como neuropsicóloga, con experiencia en la aplicación de pruebas psicológicas ante la STPS. Egresada de la Universidad Tecnológica de México, donde también cursó su maestría en Psicología. Brinda atención presencial y en línea, con horario a convenir con la terapeuta.",
     },
     {
       photoUrl: "/Red/41.jpg",
@@ -285,7 +285,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/41.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con enfoque integrativo en la atención a pacientes. Ha sido coordinadora formativa en Casa Hogar Alegría y acompañante psicoemocional en Fundación Yad RAJAMIM. También cuenta con experiencia docente y como tallerista artístico y psicoemocional. Licenciada en Psicología por la Universidad Tecnológica de México (UNITEC), actualmente estudia una maestría en Educación y Necesidades Especiales. También es licenciada en Artes Teatrales por la UAEM. Cuenta con diplomados en formación psicoterapéutica, intervención terapéutica de tercera generación, terapia de pareja y sexualidad, técnicas conductuales y motivación, y psicometría y evaluación psicológica. Brinda atención presencial y en línea, con horarios a convenir con la terapeuta.",
     },
     {
       photoUrl: "/Red/42.jpg",
@@ -293,7 +293,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/42.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con experiencia clínica en atención a niños, adolescentes, adultos y adultos mayores. Con formación en terapia de duelo, ansiedad, depresión, problemas de conducta y manejo emocional. Fundadora de la página 'Escuchando tu voz', enfocada en brindar terapia a la población mexicana. Licenciada en Psicología por la Universidad de la República Mexicana, con maestría en Educación. También se ha formado en el Instituto Especializado en Medicina Integrativa en Terapia de Duelo y Cuidados Paliativos. Ofrece atención presencial y en línea, con horario a convenir con la terapeuta.",
     },
     {
       photoUrl: "/Red/43.jpg",
@@ -301,7 +301,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/43.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Psicóloga con formación en el enfoque sistémico, con experiencia en la atención a pacientes niños, adolescentes y adultos. Ha colaborado en instituciones educativas como profesora adjunta y responsable de inclusión estudiantil. Licenciada en Psicología por ULA Florida, cuenta con posgrado en Terapia Familiar Sistémica con especialidad en Terapia de Parejas por la Universidad de Lebrija, así como diplomados en Terapia de Parejas (UDEMY), Neurociencias y Arte (IMTE), y Terapia de Danza (Danzaterapia México). Brinda atención presencial y en línea, con horario a convenir directamente con la terapeuta.",
     },
     {
       photoUrl: "/Red/44.jpg",
@@ -309,7 +309,7 @@ const people: PersonData[] = [
       description: "Psicóloga en Red Clínica de Psique & Ser A.C.",
       avatarUrl: "/Red/44.jpg",
       semblanza:
-        "Psicólogo clínico con enfoque psicoanalítico, egresado del IPN. Cuenta con experiencia en atención a adolescentes y adultos. Tiene un posgrado en psicología.",
+        "Maestrante en Psicología Clínica con enfoque psicoanalítico. Cuenta con experiencia en atención y seguimiento psicológico a niños, adolescentes y adultos. Egresada de la Universidad La Salle, actualmente cursa la maestría en Centro Eleia. Ofrece atención presencial y en línea, con horarios a convenir directamente con la terapeuta.",
     },
 ];
   
