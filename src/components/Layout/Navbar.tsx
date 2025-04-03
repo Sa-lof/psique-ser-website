@@ -141,7 +141,9 @@ const Navbar = () => {
                                     primary={page.title}
                                     primaryTypographyProps={{
                                         fontWeight: active ? 600 : 400,
-                                        color: active ? BRAND_PRIMARY : "text.primary",
+                                        color: active
+                                            ? BRAND_PRIMARY
+                                            : "text.primary",
                                     }}
                                 />
                             </ListItemButton>
@@ -200,22 +202,22 @@ const Navbar = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <Link
-                    href="/"
-                    style={{
-                        marginRight: "16px",
-                        display: "flex",
-                        flexGrow: 1,
-                        alignItems: "center",
-                    }}
-                    >
-                    <Image
-                        src="/Logo/logoAzul.png" // coloca aquí el path de tu logo
-                        alt="Psique & Ser"
-                        width={140} // ajusta el tamaño según lo necesites
-                        height={60}
-                        style={{ objectFit: "contain" }}
-                    />
-                    </Link>
+                            href="/"
+                            style={{
+                                marginRight: "16px",
+                                display: "flex",
+                                flexGrow: 1,
+                                alignItems: "center",
+                            }}
+                        >
+                            <Image
+                                src="/Logo/logoAzul.png" // coloca aquí el path de tu logo
+                                alt="Psique & Ser"
+                                width={140} // ajusta el tamaño según lo necesites
+                                height={60}
+                                style={{ objectFit: "contain" }}
+                            />
+                        </Link>
                     </motion.div>
 
                     {/* Desktop navigation */}
@@ -233,7 +235,10 @@ const Navbar = () => {
                                     key={page.title}
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                                    transition={{
+                                        duration: 0.5,
+                                        delay: index * 0.1,
+                                    }}
                                 >
                                     <Button
                                         component={Link}
@@ -248,7 +253,12 @@ const Navbar = () => {
                     </Box>
 
                     {/* CTA Button (Desktop) */}
-                    <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
+                    <Box
+                        sx={{
+                            flexGrow: 0,
+                            display: { xs: "none", md: "flex" },
+                        }}
+                    >
                         <motion.div
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
@@ -257,8 +267,14 @@ const Navbar = () => {
                             <Button
                                 variant="contained"
                                 color="primary"
-                                component={Link}
-                                href="https://wa.me/5215534458029"
+                                onClick={() => {
+                                    const mensaje = `¡Hola! Me gustaría agendar una cita con ustedes. ¿Podrías brindarme más información, por favor?`;
+                                    const telefono = "5215534458029";
+                                    const url = `https://wa.me/${telefono}?text=${encodeURIComponent(
+                                        mensaje
+                                    )}`;
+                                    window.open(url, "_blank");
+                                }}
                                 sx={{
                                     px: 3,
                                     py: 1,

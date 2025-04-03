@@ -33,7 +33,7 @@ const campaigns = [
         ],
     },
     {
-        title: "ASILO DE ANCIANOS SAN JUDAS TADEO A.C.",
+        title: "Asilo de Ancianos San Judas Tadeo A.C tercera campaña de solidaridad",
         description:
             "Asilo de Ancianos San Judas Tadeo A.C. es una asociación civil sin fines de lucro dedicada a brindar atención integral, hogar y cuidado a personas adultas mayores en situación vulnerable, promoviendo una vida digna, acompañada y protegida.",
         images: [

@@ -184,7 +184,7 @@ const Footer: React.FC = () => {
                                     textDecoration: "none",
                                 }}
                             >
-                                GAM
+                                Carlota, 67
                                 <br />
                                 Gustavo A. Madero, CDMX
                             </Link>
@@ -207,7 +207,7 @@ const Footer: React.FC = () => {
                             variant="body2"
                             sx={{ color: "rgba(255,255,255,0.7)" }}
                         >
-                            +52 1 55 8445 8269
+                            55 3445 8029
                         </Typography>
                     </Grid>
 

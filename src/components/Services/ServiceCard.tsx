@@ -81,9 +81,17 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, image }) 
                     
                     {/* Button at the bottom */}
                     <Box sx={{ mt: "auto" }}>
-                        <Button variant="text">
-                            Reserva tu lugar →
-                        </Button>
+                    <Button
+                        variant="text"
+                        onClick={() => {
+                            const mensaje = `¡Hola! Me gustaría solicitar más información sobre el servicio de ${title}. ¿Podrías ayudarme, por favor?`;
+                            const telefono = "5215534458029";
+                            const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+                            window.open(url, "_blank");
+                        }}
+                    >
+                        Reserva tu lugar →
+                    </Button>
                     </Box>
                 </CardContent>
             </Card>
