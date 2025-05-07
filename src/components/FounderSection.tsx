@@ -98,7 +98,7 @@ const FounderSection: React.FC = () => {
                                 Ximena Mendoza. A lo largo de los años, han institucionalizado e integrado
                                 una red de atención psicológica con especialistas altamente competentes en
                                 la salud mental y en el ámbito clínico. Hoy en día, Psique & Ser es una
-                                Asociación Civil y marca registrada ante el IMPI.
+                                Asociación Civil y marca registrada ante el IMPI. 
                             </Typography>
                             <Typography variant="body2">
                                 Alan Torres - Fundador

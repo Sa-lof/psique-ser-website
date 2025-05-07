@@ -29,7 +29,7 @@ const people: PersonData[] = [
       description: "Fundadora de Psique & Ser A.C.",
       avatarUrl: "/Red/13.jpg",
       semblanza:
-        "Egresada de la Universidad La Salle y con Especialidad en Educación. Cuenta con 10 años de experiencia en atención a niños, adolescentes y adultos. También es Directora a nivel secundaria del Colegio Británico.",
+        "Egresada de la Universidad La Salle y con Especialidad en Educación. Cuenta con 10 años de experiencia en atención a niños, adolescentes y adultos. También es Directora a nivel secundaria del Colegio Británico. Tiene un Diplomado en psicología clínica del Centro de educación e innovación profesional",
     },
     {
       photoUrl: "/Red/24.jpg",
