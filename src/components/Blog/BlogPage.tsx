@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import { Box, Button, Container, Grid } from "@mui/material";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import BlogCard from "./BlogCard"; // Adjust import path as needed
 import { blogData } from "@/components/Blog/BlogData";
 
@@ -19,7 +19,6 @@ const sectionVariants = {
 
 const BlogSection: React.FC = () => {
     const sectionRef = useRef<HTMLDivElement | null>(null);
-    const sectionInView = useInView(sectionRef, { once: false, amount: 0 });
 
     const [currentPage, setCurrentPage] = useState(0);
 
