@@ -30,12 +30,12 @@ const BlogSection: React.FC = () => {
     );
 
     return (
-        <Box ref={sectionRef} sx={{ py: { xs: 6, md: 10 } }}>
+        <Box ref={sectionRef} sx={{ py: { xs: 6, md: 10 }, minHeight: "100vh" }}>
             <Container>
                 <motion.div
                     variants={sectionVariants}
                     initial="hidden"
-                    animate={sectionInView ? "visible" : "hidden"}
+                    animate="visible"
                 >
                     <Grid container spacing={4}>
                         {paginatedData.map((item, index) => (
