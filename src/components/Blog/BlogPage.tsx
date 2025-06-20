@@ -19,7 +19,8 @@ const sectionVariants = {
 
 const BlogSection: React.FC = () => {
     const sectionRef = useRef<HTMLDivElement | null>(null);
-    const sectionInView = useInView(sectionRef, { once: true, amount: 0.2 });
+    const sectionInView = useInView(sectionRef, { once: false, amount: 0 });
+
     const [currentPage, setCurrentPage] = useState(0);
 
     const totalPages = Math.ceil(blogData.length / ITEMS_PER_PAGE);
